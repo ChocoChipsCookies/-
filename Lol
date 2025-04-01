@@ -21,6 +21,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "Unavailable",
       RememberJoins = true
    },
+
    KeySystem = true,
    KeySettings = {
       Title = "Projects Cookies 🍪 || Private Version 🧑‍💻",
