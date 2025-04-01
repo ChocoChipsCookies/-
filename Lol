@@ -1,0 +1,164 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Projects Cookies 🍪 || Private Version 🧑‍💻",
+   Icon = 0,
+   LoadingTitle = "Projects Cookies 🍪 || Private Version 🧑‍💻",
+   LoadingSubtitle = "Wellcome " ...game.Players.LocalPlayer.Name... " ",
+   Theme = "Default",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Projects Cookies 🍪 || Private Version 🧑‍💻"
+   },
+
+   Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
+   Content = "Chat Me to Verify The Key!",
+   Duration = 10,
+   Image = 4483362458,
+})
+
+   Discord = {
+      Enabled = false,
+      Invite = "Unavailable",
+      RememberJoins = true
+   },
+   KeySystem = true,
+   KeySettings = {
+      Title = "Projects Cookies 🍪 || Private Version 🧑‍💻",
+      Subtitle = "Wellcome " ...game.Players.LocalPlayer.Name... " ,Nice To See You!",
+      Note = "Hello " ...game.Players.LocalPlayer.Name... " !, Wellcome to Private Version of Projects Cookies 🧑‍💻🍪!",
+      FileName = "Key System...",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Choco","Chips","Cookies","👉 Little ❤️ Cookies 👈"}
+   }
+})
+
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
+   Content = "Succesly full Verify!",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
+   Content = "Enjoy The Script!",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
+local MainTab = Window:CreateMainTab("Main", 4483362458)
+local Section = Tab:CreateSection("Info")
+local Paragraph = Tab:CreateParagraph({Title = "Hello " ...game.Players.LocalPlayer.Name... " !,", Content = "Wellcome to Private Version of Projects Cookies 🧑‍💻🍪"})
+local Label = Tab:CreateLabel("Try These 2 Scripts Out!", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+   
+   end,
+})
+
+
+local MainTab = Window:CreateMainTab("🌌Universal🌌", 4483362458)
+local Section = Tab:CreateSection("🌌Random Script🌌")
+local Button = Tab:CreateButton({
+   Name = "Coming Soon",
+   Callback = function()
+   
+   end,
+})
+
+local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+
+local MainTab = Window:CreateMainTab("🧾Script🧾", 4483362458)
+local Section = Tab:CreateSection("🧾Main Script🧾")
+local Button = Tab:CreateButton({
+   Name = "Coming Soon",
+   Callback = function()
+   
+   end,
+})
+
+local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+
+local MainTab = Window:CreateMainTab("👤Players👤", 4483362458)
+local Section = Tab:CreateSection("👤Players Setting👤")
+local Button = Tab:CreateButton({
+   Name = "Coming Soon",
+   Callback = function()
+   
+   end,
+})
+
+local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+
+local MainTab = Window:CreateMainTab("🗂️Hub🗂️", 4483362458)
+local Section = Tab:CreateSection("Credits To Owner of This Hub LOL")
+local Button = Tab:CreateButton({
+   Name = "Coming Soon",
+   Callback = function()
+   
+   end,
+})
+
+local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+
+local MainTab = Window:CreateMainTab("⚙️Setting⚙️", 4483362458)
+local Section = Tab:CreateSection("⚙️Setting⚙️")
+local Button = Tab:CreateButton({
+   Name = "Coming Soon",
+   Callback = function()
+   
+   end,
+})
+
+local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+
+local MainTab = Window:CreateMainTab("Credits", 4483362458)
+local Section = Tab:CreateSection("Creator/Developer")
+local Button = Tab:CreateButton({
+   Name = "WHITE_BUBU",
+   Callback = function()
+     Rayfield:Notify({
+     Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
+     Content = "R.I.P RED_BUBU...",
+     Duration = 6.5,
+     Image = 4483362458,
+  })
+    end, 
+ })
+
+
+local Section = Tab:CreateSection("The One Who Make Me Smile Every Time")
+local Button = Tab:CreateButton({
+   Name = "Fuvv4_w1nnn",
+   Callback = function()
+      setclipboard("👉 Little ❤️ Cookies 👈")
+      Rayfield:Notify({
+      Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
+      Content = "👉 Little ❤️ Cookies 👈",
+      Duration = 6.5,
+      Image = 4483362458,
+  })
+    end, 
+ })
+
