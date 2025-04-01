@@ -135,30 +135,3 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 local MainTab = Window:CreateMainTab("Credits", 4483362458)
 local Section = Tab:CreateSection("Creator/Developer")
-local Button = Tab:CreateButton({
-   Name = "WHITE_BUBU",
-   Callback = function()
-     Rayfield:Notify({
-     Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
-     Content = "R.I.P RED_BUBU...",
-     Duration = 6.5,
-     Image = 4483362458,
-  })
-    end, 
- })
-
-
-local Section = Tab:CreateSection("The One Who Make Me Smile Every Time")
-local Button = Tab:CreateButton({
-   Name = "Fuvv4_w1nnn",
-   Callback = function()
-      setclipboard("👉 Little ❤️ Cookies 👈")
-      Rayfield:Notify({
-      Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
-      Content = "👉 Little ❤️ Cookies 👈",
-      Duration = 6.5,
-      Image = 4483362458,
-  })
-    end, 
- })
-
