@@ -16,13 +16,6 @@ local Window = Rayfield:CreateWindow({
       FileName = "Projects Cookies 🍪 || Private Version 🧑‍💻"
    },
 
-   Rayfield:Notify({
-   Title = "Projects Cookies 🍪 || Creator 🧑‍💻",
-   Content = "Chat Me to Verify The Key!",
-   Duration = 10,
-   Image = 4483362458,
-})
-
    Discord = {
       Enabled = false,
       Invite = "Unavailable",
