@@ -49,8 +49,11 @@ Rayfield:Notify({
 
 local MainTab = Window:CreateMainTab("Main", 4483362458)
 local Section = Tab:CreateSection("Info")
+
 local Paragraph = Tab:CreateParagraph({Title = "Hello " ...game.Players.LocalPlayer.Name... " !,", Content = "Wellcome to Private Version of Projects Cookies 🧑‍💻🍪"})
+
 local Label = Tab:CreateLabel("Try These 2 Scripts Out!", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
 local Button = Tab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
@@ -67,7 +70,9 @@ local Button = Tab:CreateButton({
 
 
 local MainTab = Window:CreateMainTab("🌌Universal🌌", 4483362458)
+
 local Section = Tab:CreateSection("🌌Random Script🌌")
+
 local Button = Tab:CreateButton({
    Name = "Coming Soon",
    Callback = function()
@@ -79,7 +84,9 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 
 local MainTab = Window:CreateMainTab("🧾Script🧾", 4483362458)
+
 local Section = Tab:CreateSection("🧾Main Script🧾")
+
 local Button = Tab:CreateButton({
    Name = "Coming Soon",
    Callback = function()
@@ -91,7 +98,9 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 
 local MainTab = Window:CreateMainTab("👤Players👤", 4483362458)
+
 local Section = Tab:CreateSection("👤Players Setting👤")
+
 local Button = Tab:CreateButton({
    Name = "Coming Soon",
    Callback = function()
@@ -103,7 +112,9 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 
 local MainTab = Window:CreateMainTab("🗂️Hub🗂️", 4483362458)
+
 local Section = Tab:CreateSection("Credits To Owner of This Hub LOL")
+
 local Button = Tab:CreateButton({
    Name = "Coming Soon",
    Callback = function()
@@ -115,7 +126,9 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 
 local MainTab = Window:CreateMainTab("⚙️Setting⚙️", 4483362458)
+
 local Section = Tab:CreateSection("⚙️Setting⚙️")
+
 local Button = Tab:CreateButton({
    Name = "Coming Soon",
    Callback = function()
@@ -127,4 +140,5 @@ local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.f
 
 
 local MainTab = Window:CreateMainTab("Credits", 4483362458)
+
 local Section = Tab:CreateSection("Creator/Developer")
