@@ -48,7 +48,7 @@ Rayfield:Notify({
 })
 
 local MainTab = Window:CreateMainTab("Main", 4483362458)
-local Section = Tab:CreateSection("Info")
+local Section = MainTab:CreateSection("Info")
 
 local Paragraph = Tab:CreateParagraph({Title = "Hello " ...game.Players.LocalPlayer.Name... " !,", Content = "Wellcome to Private Version of Projects Cookies 🧑‍💻🍪"})
 
@@ -69,7 +69,7 @@ local Button = Tab:CreateButton({
 })
 
 
-local MainTab = Window:CreateMainTab("🌌Universal🌌", 4483362458)
+local Tab = Window:CreateTab("🌌Universal🌌", 4483362458)
 
 local Section = Tab:CreateSection("🌌Random Script🌌")
 
@@ -83,7 +83,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 
-local MainTab = Window:CreateMainTab("🧾Script🧾", 4483362458)
+local Tab = Window:CreateTab("🧾Script🧾", 4483362458)
 
 local Section = Tab:CreateSection("🧾Main Script🧾")
 
@@ -97,7 +97,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 
-local MainTab = Window:CreateMainTab("👤Players👤", 4483362458)
+local Tab = Window:CreateTab("👤Players👤", 4483362458)
 
 local Section = Tab:CreateSection("👤Players Setting👤")
 
@@ -111,7 +111,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("More Script Coming Soon...", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
 
-local MainTab = Window:CreateMainTab("🗂️Hub🗂️", 4483362458)
+local Tab = Window:CreateTab("🗂️Hub🗂️", 4483362458)
 
 local Section = Tab:CreateSection("Credits To Owner of This Hub LOL")
 
