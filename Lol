@@ -51,7 +51,7 @@ Rayfield:Notify({
 local MainTab = Window:CreateMainTab("Main", 4483362458)
 local Section = MainTab:CreateSection("Info")
 
-local Paragraph = Tab:CreateParagraph({Title = "Hello " ...game.Players.LocalPlayer.Name... " !,", Content = "Wellcome to Private Version of Projects Cookies 🧑‍💻🍪"})
+local Paragraph = Tab:CreateParagraph({Title = "Hello!", Content = "Wellcome to Private Version of Projects Cookies 🧑‍💻🍪"})
 
 local Label = Tab:CreateLabel("Try These 2 Scripts Out!", 4483362458, Color3.fromRGB(255, 255, 255), false)
 
